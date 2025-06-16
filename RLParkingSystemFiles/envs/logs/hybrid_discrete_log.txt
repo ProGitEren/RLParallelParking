@@ -1,0 +1,931 @@
+Step 1
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.00
+Distances: {'rear_center_dist': 7.026730683611765, 'rear_left_dist': 7.026730683611765, 'rear_right_dist': 7.026730683611765, 'front_center_dist': 5.339935866020207, 'front_left_dist': 5.339935866020207, 'front_right_dist': 5.339935866020207}
+Phase: 1
+Gear: -1
+Reward: -17.91 | Done: False
+
+Step 2
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.00
+Distances: {'rear_center_dist': 7.030713681284507, 'rear_left_dist': 7.030713680936288, 'rear_right_dist': 7.030713681632726, 'front_center_dist': 5.345705186980521, 'front_left_dist': 5.345705186522501, 'front_right_dist': 5.345705187438542}
+Phase: 1
+Gear: -1
+Reward: -17.91 | Done: False
+
+Step 3
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.00
+Distances: {'rear_center_dist': 7.033951121482888, 'rear_left_dist': 7.0339511205116425, 'rear_right_dist': 7.033951122454133, 'front_center_dist': 5.349857426506638, 'front_left_dist': 5.349857425229653, 'front_right_dist': 5.349857427783622}
+Phase: 1
+Gear: -1
+Reward: -17.91 | Done: False
+
+Step 4
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.00
+Distances: {'rear_center_dist': 7.033999149480268, 'rear_left_dist': 7.033999148488474, 'rear_right_dist': 7.033999150472063, 'front_center_dist': 5.350321914888422, 'front_left_dist': 5.35032191358446, 'front_right_dist': 5.350321916192385}
+Phase: 1
+Gear: -1
+Reward: -17.91 | Done: False
+
+Step 5
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.00
+Distances: {'rear_center_dist': 7.034102071545724, 'rear_left_dist': 7.03410206856871, 'rear_right_dist': 7.034102074522737, 'front_center_dist': 5.350426858540149, 'front_left_dist': 5.350426854626362, 'front_right_dist': 5.3504268624539355}
+Phase: 1
+Gear: -1
+Reward: -17.91 | Done: False
+
+Step 6
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.00
+Distances: {'rear_center_dist': 7.032476938499367, 'rear_left_dist': 7.032476934566692, 'rear_right_dist': 7.032476942432041, 'front_center_dist': 5.348696822711117, 'front_left_dist': 5.348696817540218, 'front_right_dist': 5.3486968278820175}
+Phase: 1
+Gear: -1
+Reward: -17.91 | Done: False
+
+Step 7
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.00
+Distances: {'rear_center_dist': 7.030974164870995, 'rear_left_dist': 7.030974163577047, 'rear_right_dist': 7.030974166164944, 'front_center_dist': 5.347019873027257, 'front_left_dist': 5.347019871325731, 'front_right_dist': 5.347019874728783}
+Phase: 1
+Gear: -1
+Reward: -17.91 | Done: False
+
+Step 8
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.00
+Distances: {'rear_center_dist': 7.026402779668819, 'rear_left_dist': 7.02641710837113, 'rear_right_dist': 7.026388450970462, 'front_center_dist': 5.3424058693068215, 'front_left_dist': 5.3424194739314075, 'front_right_dist': 5.342392264691221}
+Phase: 1
+Gear: -1
+Reward: -17.91 | Done: False
+
+Step 9
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.00
+Distances: {'rear_center_dist': 7.01881684645279, 'rear_left_dist': 7.01887396789059, 'rear_right_dist': 7.018759725080881, 'front_center_dist': 5.334920154896028, 'front_left_dist': 5.334974313810438, 'front_right_dist': 5.334865996130102}
+Phase: 1
+Gear: -1
+Reward: -17.91 | Done: False
+
+Step 10
+Action: (0.0, -0.5, 0)
+Yaw Error: 0.00
+Distances: {'rear_center_dist': 7.008844231745488, 'rear_left_dist': 7.008915963788683, 'rear_right_dist': 7.0087724997987735, 'front_center_dist': 5.325249356154278, 'front_left_dist': 5.325317476545677, 'front_right_dist': 5.325181235984711}
+Phase: 1
+Gear: -1
+Reward: -17.90 | Done: False
+
+Step 11
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.00
+Distances: {'rear_center_dist': 6.997926238262985, 'rear_left_dist': 6.997954784838345, 'rear_right_dist': 6.9978976917042655, 'front_center_dist': 5.314869642115173, 'front_left_dist': 5.31489669283271, 'front_right_dist': 5.314842591435194}
+Phase: 1
+Gear: -1
+Reward: -17.90 | Done: False
+
+Step 12
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.00
+Distances: {'rear_center_dist': 6.98371568419274, 'rear_left_dist': 6.983758515191963, 'rear_right_dist': 6.983672853230888, 'front_center_dist': 5.301265902550757, 'front_left_dist': 5.30130648266203, 'front_right_dist': 5.30122532252413}
+Phase: 1
+Gear: -1
+Reward: -17.89 | Done: False
+
+Step 13
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.00
+Distances: {'rear_center_dist': 6.968363264327266, 'rear_left_dist': 6.968377522676204, 'rear_right_dist': 6.96834900598257, 'front_center_dist': 5.286726053116314, 'front_left_dist': 5.286739550960961, 'front_right_dist': 5.286712555281252}
+Phase: 1
+Gear: -1
+Reward: -17.89 | Done: False
+
+Step 14
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.02
+Distances: {'rear_center_dist': 6.951607349785188, 'rear_left_dist': 6.95187908878643, 'rear_right_dist': 6.95133561225322, 'front_center_dist': 5.2703206206326625, 'front_left_dist': 5.270578108185468, 'front_right_dist': 5.270063136449013}
+Phase: 1
+Gear: -1
+Reward: -17.87 | Done: False
+
+Step 15
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.03
+Distances: {'rear_center_dist': 6.931801538386969, 'rear_left_dist': 6.932302052398284, 'rear_right_dist': 6.931301029384535, 'front_center_dist': 5.251084911685734, 'front_left_dist': 5.251559003548348, 'front_right_dist': 5.250610831339733}
+Phase: 1
+Gear: -1
+Reward: -17.86 | Done: False
+
+Step 16
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.01
+Distances: {'rear_center_dist': 6.910307590736287, 'rear_left_dist': 6.910507482633452, 'rear_right_dist': 6.910107699660962, 'front_center_dist': 5.231335162158831, 'front_left_dist': 5.23152427908861, 'front_right_dist': 5.231146047115936}
+Phase: 1
+Gear: -1
+Reward: -17.86 | Done: False
+
+Step 17
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.00
+Distances: {'rear_center_dist': 6.88676212338591, 'rear_left_dist': 6.886704972030261, 'rear_right_dist': 6.886819274808691, 'front_center_dist': 5.209569801538068, 'front_left_dist': 5.209515747779265, 'front_right_dist': 5.209623855451736}
+Phase: 1
+Gear: -1
+Reward: -17.85 | Done: False
+
+Step 18
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.01
+Distances: {'rear_center_dist': 6.8612588506559895, 'rear_left_dist': 6.861144528963773, 'rear_right_dist': 6.861373172615356, 'front_center_dist': 5.185594465915562, 'front_left_dist': 5.185486397934405, 'front_right_dist': 5.185702534518386}
+Phase: 1
+Gear: -1
+Reward: -17.84 | Done: False
+
+Step 19
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.03
+Distances: {'rear_center_dist': 6.8342099254163235, 'rear_left_dist': 6.833782015432765, 'rear_right_dist': 6.834637839270036, 'front_center_dist': 5.160659964597527, 'front_left_dist': 5.160256055232485, 'front_right_dist': 5.161063882955925}
+Phase: 1
+Gear: -1
+Reward: -17.82 | Done: False
+
+Step 20
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.04
+Distances: {'rear_center_dist': 6.805055267192772, 'rear_left_dist': 6.8044850584526735, 'rear_right_dist': 6.805625482899115, 'front_center_dist': 5.133452157677053, 'front_left_dist': 5.132914446109123, 'front_right_dist': 5.133989885492371}
+Phase: 1
+Gear: -1
+Reward: -17.80 | Done: False
+
+Step 21
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.05
+Distances: {'rear_center_dist': 6.774860990216623, 'rear_left_dist': 6.774020323517012, 'rear_right_dist': 6.775701672235649, 'front_center_dist': 5.105516587651606, 'front_left_dist': 5.104724617655212, 'front_right_dist': 5.106308593545519}
+Phase: 1
+Gear: -1
+Reward: -17.78 | Done: False
+
+Step 22
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.07
+Distances: {'rear_center_dist': 6.742251330465538, 'rear_left_dist': 6.7412258574160004, 'rear_right_dist': 6.7432768265693515, 'front_center_dist': 5.075192793231159, 'front_left_dist': 5.074227705160589, 'front_right_dist': 5.076157935606848}
+Phase: 1
+Gear: -1
+Reward: -17.76 | Done: False
+
+Step 23
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.09
+Distances: {'rear_center_dist': 6.708645922142796, 'rear_left_dist': 6.707265136848714, 'rear_right_dist': 6.710026749798533, 'front_center_dist': 5.0442860674453796, 'front_left_dist': 5.042988131868235, 'front_right_dist': 5.045584103343736}
+Phase: 1
+Gear: -1
+Reward: -17.74 | Done: False
+
+Step 24
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.10
+Distances: {'rear_center_dist': 6.67333433463329, 'rear_left_dist': 6.671726863276357, 'rear_right_dist': 6.674941864298604, 'front_center_dist': 5.011596983210381, 'front_left_dist': 5.010087856128812, 'front_right_dist': 5.013106249069115}
+Phase: 1
+Gear: -1
+Reward: -17.72 | Done: False
+
+Step 25
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.13
+Distances: {'rear_center_dist': 6.637373073914649, 'rear_left_dist': 6.635397158334592, 'rear_right_dist': 6.63934907903836, 'front_center_dist': 4.978588089668884, 'front_left_dist': 4.97673560941971, 'front_right_dist': 4.980440784170359}
+Phase: 1
+Gear: -1
+Reward: -17.69 | Done: False
+
+Step 26
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.15
+Distances: {'rear_center_dist': 6.59948613260447, 'rear_left_dist': 6.597227527272836, 'rear_right_dist': 6.601744856877698, 'front_center_dist': 4.943694693911067, 'front_left_dist': 4.9415801940118, 'front_right_dist': 4.945809479994083}
+Phase: 1
+Gear: -1
+Reward: -17.67 | Done: False
+
+Step 27
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.15
+Distances: {'rear_center_dist': 6.560764316045711, 'rear_left_dist': 6.558479149429515, 'rear_right_dist': 6.563049606625845, 'front_center_dist': 4.907531223708069, 'front_left_dist': 4.905394866846187, 'front_right_dist': 4.909667880294367}
+Phase: 1
+Gear: -1
+Reward: -17.65 | Done: False
+
+Step 28
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.15
+Distances: {'rear_center_dist': 6.5204320313296416, 'rear_left_dist': 6.518149463876693, 'rear_right_dist': 6.522714725327993, 'front_center_dist': 4.86983512843232, 'front_left_dist': 4.867704642237268, 'front_right_dist': 4.871965921805701}
+Phase: 1
+Gear: -1
+Reward: -17.63 | Done: False
+
+Step 29
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.15
+Distances: {'rear_center_dist': 6.47884859563502, 'rear_left_dist': 6.476596599425417, 'rear_right_dist': 6.481100717600299, 'front_center_dist': 4.830999298542098, 'front_left_dist': 4.828900740672637, 'front_right_dist': 4.833098163166561}
+Phase: 1
+Gear: -1
+Reward: -17.62 | Done: False
+
+Step 30
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.15
+Distances: {'rear_center_dist': 6.435771951901488, 'rear_left_dist': 6.433536449113103, 'rear_right_dist': 6.438007581319241, 'front_center_dist': 4.790827002042427, 'front_left_dist': 4.7887474091614255, 'front_right_dist': 4.79290690538367}
+Phase: 1
+Gear: -1
+Reward: -17.60 | Done: False
+
+Step 31
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.15
+Distances: {'rear_center_dist': 6.391471029070163, 'rear_left_dist': 6.389238054542542, 'rear_right_dist': 6.393704132871565, 'front_center_dist': 4.749636251126088, 'front_left_dist': 4.747562878002177, 'front_right_dist': 4.751709942837937}
+Phase: 1
+Gear: -1
+Reward: -17.58 | Done: False
+
+Step 32
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.15
+Distances: {'rear_center_dist': 6.345742812404548, 'rear_left_dist': 6.34348429916682, 'rear_right_dist': 6.348001461103968, 'front_center_dist': 4.707270094106171, 'front_left_dist': 4.705177223330883, 'front_right_dist': 4.709363300528752}
+Phase: 1
+Gear: -1
+Reward: -17.56 | Done: False
+
+Step 33
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.15
+Distances: {'rear_center_dist': 6.298909023214433, 'rear_left_dist': 6.296667398006188, 'rear_right_dist': 6.301150785165402, 'front_center_dist': 4.663896645999499, 'front_left_dist': 4.661823797215195, 'front_right_dist': 4.665969835509979}
+Phase: 1
+Gear: -1
+Reward: -17.55 | Done: False
+
+Step 34
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.15
+Distances: {'rear_center_dist': 6.250694033896552, 'rear_left_dist': 6.248469376059969, 'rear_right_dist': 6.252918829846242, 'front_center_dist': 4.619296286365159, 'front_left_dist': 4.617243720912015, 'front_right_dist': 4.62134919796995}
+Phase: 1
+Gear: -1
+Reward: -17.53 | Done: False
+
+Step 35
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.15
+Distances: {'rear_center_dist': 6.201159239354911, 'rear_left_dist': 6.198853178993251, 'rear_right_dist': 6.20346545199636, 'front_center_dist': 4.573824114939047, 'front_left_dist': 4.571701607662197, 'front_right_dist': 4.5759470062980805}
+Phase: 1
+Gear: -1
+Reward: -17.50 | Done: False
+
+Step 36
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.15
+Distances: {'rear_center_dist': 6.150358013739693, 'rear_left_dist': 6.148111719351593, 'rear_right_dist': 6.152604456837879, 'front_center_dist': 4.526995257023523, 'front_left_dist': 4.5249331291383985, 'front_right_dist': 4.529057762122089}
+Phase: 1
+Gear: -1
+Reward: -17.49 | Done: False
+
+Step 37
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.15
+Distances: {'rear_center_dist': 6.098237340517301, 'rear_left_dist': 6.095910272947799, 'rear_right_dist': 6.1005645721702315, 'front_center_dist': 4.4793973501472655, 'front_left_dist': 4.477266994151213, 'front_right_dist': 4.481528125158524}
+Phase: 1
+Gear: -1
+Reward: -17.46 | Done: False
+
+Step 38
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 6.044779817727792, 'rear_left_dist': 6.0423584839054705, 'rear_right_dist': 6.047201334433385, 'front_center_dist': 4.430696172701505, 'front_left_dist': 4.428486132937044, 'front_right_dist': 4.432906682702296}
+Phase: 1
+Gear: -1
+Reward: -17.44 | Done: False
+
+Step 39
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 5.990355073812907, 'rear_left_dist': 5.987910030123653, 'rear_right_dist': 5.992800309833101, 'front_center_dist': 4.381142351215306, 'front_left_dist': 4.378917761833913, 'front_right_dist': 4.38336743839703}
+Phase: 1
+Gear: -1
+Reward: -17.41 | Done: False
+
+Step 40
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 5.935034677358249, 'rear_left_dist': 5.932607989659507, 'rear_right_dist': 5.93746156055615, 'front_center_dist': 4.33085175320702, 'front_left_dist': 4.328651255657386, 'front_right_dist': 4.333052760187926}
+Phase: 1
+Gear: -1
+Reward: -17.39 | Done: False
+
+Step 41
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 5.879069435978024, 'rear_left_dist': 5.876647311786256, 'rear_right_dist': 5.881491761291612, 'front_center_dist': 4.280158999023616, 'front_left_dist': 4.277970441583114, 'front_right_dist': 4.282348084164887}
+Phase: 1
+Gear: -1
+Reward: -17.37 | Done: False
+
+Step 42
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 5.82209390662927, 'rear_left_dist': 5.81967657099857, 'rear_right_dist': 5.824511449328047, 'front_center_dist': 4.228747122013521, 'front_left_dist': 4.226571187574974, 'front_right_dist': 4.2309236035882485}
+Phase: 1
+Gear: -1
+Reward: -17.35 | Done: False
+
+Step 43
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 5.7643578477698005, 'rear_left_dist': 5.761945469080283, 'rear_right_dist': 5.766770439752139, 'front_center_dist': 4.17685448500456, 'front_left_dist': 4.174691776471236, 'front_right_dist': 4.179017761200849}
+Phase: 1
+Gear: -1
+Reward: -17.32 | Done: False
+
+Step 44
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 5.705606024069975, 'rear_left_dist': 5.703198907832727, 'rear_right_dist': 5.708013360238926, 'front_center_dist': 4.124271095144433, 'front_left_dist': 4.122122462369238, 'front_right_dist': 4.1264203175248655}
+Phase: 1
+Gear: -1
+Reward: -17.30 | Done: False
+
+Step 45
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 5.6461137949135605, 'rear_left_dist': 5.643712187853678, 'rear_right_dist': 5.648515628911862, 'front_center_dist': 4.071262809386409, 'front_left_dist': 4.069129020494707, 'front_right_dist': 4.07339721116379}
+Phase: 1
+Gear: -1
+Reward: -17.28 | Done: False
+
+Step 46
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 5.585643038677346, 'rear_left_dist': 5.583247226036326, 'rear_right_dist': 5.588039085687426, 'front_center_dist': 4.0176400870732145, 'front_left_dist': 4.015522026947386, 'front_right_dist': 4.0197587848997856}
+Phase: 1
+Gear: -1
+Reward: -17.25 | Done: False
+
+Step 47
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 5.524495556641616, 'rear_left_dist': 5.522105812646034, 'rear_right_dist': 5.526885542854141, 'front_center_dist': 3.9636932618338228, 'front_left_dist': 3.9615917978430524, 'front_right_dist': 3.9657953898606086}
+Phase: 1
+Gear: -1
+Reward: -17.23 | Done: False
+
+Step 48
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 5.462421919086435, 'rear_left_dist': 5.460038561527991, 'rear_right_dist': 5.464805527191478, 'front_center_dist': 3.9092318996582276, 'front_left_dist': 3.9071480346521987, 'front_right_dist': 3.9113164567812357}
+Phase: 1
+Gear: -1
+Reward: -17.20 | Done: False
+
+Step 49
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 5.399709822598605, 'rear_left_dist': 5.397333160079865, 'rear_right_dist': 5.402086744472113, 'front_center_dist': 3.8545348148859935, 'front_left_dist': 3.852469540427593, 'front_right_dist': 3.8566008112815253}
+Phase: 1
+Gear: -1
+Reward: -17.18 | Done: False
+
+Step 50
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 5.336112906093186, 'rear_left_dist': 5.33374329537808, 'rear_right_dist': 5.338482785522609, 'front_center_dist': 3.799417453884799, 'front_left_dist': 3.797371911128161, 'front_right_dist': 3.801463750387088}
+Phase: 1
+Gear: -1
+Reward: -17.15 | Done: False
+
+Step 51
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 5.271879103156505, 'rear_left_dist': 5.269516897907775, 'rear_right_dist': 5.2742415870363955, 'front_center_dist': 3.7441283147237723, 'front_left_dist': 3.742103652262717, 'front_right_dist': 3.7461537647456344}
+Phase: 1
+Gear: -1
+Reward: -17.13 | Done: False
+
+Step 52
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 5.206738029494663, 'rear_left_dist': 5.204383640355133, 'rear_right_dist': 5.209092707827257, 'front_center_dist': 3.6884706724624436, 'front_left_dist': 3.686468217406746, 'front_right_dist': 3.6904739511943907}
+Phase: 1
+Gear: -1
+Reward: -17.10 | Done: False
+
+Step 53
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 5.1409255790713, 'rear_left_dist': 5.138579417984177, 'rear_right_dist': 5.143272040572215, 'front_center_dist': 3.632686908882069, 'front_left_dist': 3.6307080096681585, 'front_right_dist': 3.634666670221783}
+Phase: 1
+Gear: -1
+Reward: -17.08 | Done: False
+
+Step 54
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 5.07425764236576, 'rear_left_dist': 5.071920175549665, 'rear_right_dist': 5.076595421562585, 'front_center_dist': 3.5766644078460743, 'front_left_dist': 3.574710586959129, 'front_right_dist': 3.5786191319210605}
+Phase: 1
+Gear: -1
+Reward: -17.05 | Done: False
+
+Step 55
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 5.00709117971205, 'rear_left_dist': 5.004762860152239, 'rear_right_dist': 5.00941982436135, 'front_center_dist': 3.5207492088839754, 'front_left_dist': 3.5188219682715545, 'front_right_dist': 3.522677396311943}
+Phase: 1
+Gear: -1
+Reward: -17.02 | Done: False
+
+Step 56
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 4.939191733790964, 'rear_left_dist': 4.936873081539222, 'rear_right_dist': 4.941510724690853, 'front_center_dist': 3.4647948086424663, 'front_left_dist': 3.4628958624535207, 'front_right_dist': 3.4666947481653425}
+Phase: 1
+Gear: -1
+Reward: -16.99 | Done: False
+
+Step 57
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 4.870862940020521, 'rear_left_dist': 4.868554469186112, 'rear_right_dist': 4.873171763919466, 'front_center_dist': 3.409102701148225, 'front_left_dist': 3.4072337627557823, 'front_right_dist': 3.4109726822495414}
+Phase: 1
+Gear: -1
+Reward: -16.97 | Done: False
+
+Step 58
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 4.801887265131759, 'rear_left_dist': 4.799589564905907, 'rear_right_dist': 4.8041853338187055, 'front_center_dist': 3.353554503059306, 'front_left_dist': 3.351717520559953, 'front_right_dist': 3.3553925808336422}
+Phase: 1
+Gear: -1
+Reward: -16.94 | Done: False
+
+Step 59
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 4.7325565981971485, 'rear_left_dist': 4.730270256592528, 'rear_right_dist': 4.734843324655854, 'front_center_dist': 3.298444021836746, 'front_left_dist': 3.296640950812801, 'front_right_dist': 3.300248243839927}
+Phase: 1
+Gear: -1
+Reward: -16.91 | Done: False
+
+Step 60
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 4.6626597177418345, 'rear_left_dist': 4.660385404656823, 'rear_right_dist': 4.664934433208006, 'front_center_dist': 3.2436706976088465, 'front_left_dist': 3.241903749208637, 'front_right_dist': 3.2454388561614924}
+Phase: 1
+Gear: -1
+Reward: -16.88 | Done: False
+
+Step 61
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 4.592461103432282, 'rear_left_dist': 4.590199495435131, 'rear_right_dist': 4.594723132501815, 'front_center_dist': 3.1895105933768155, 'front_left_dist': 3.187782002386327, 'front_right_dist': 3.1912404570873347}
+Phase: 1
+Gear: -1
+Reward: -16.86 | Done: False
+
+Step 62
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 4.521770550629559, 'rear_left_dist': 4.519522416127078, 'rear_right_dist': 4.524019126216164, 'front_center_dist': 3.13589326560082, 'front_left_dist': 3.134205541871137, 'front_right_dist': 3.137582328314065}
+Phase: 1
+Gear: -1
+Reward: -16.83 | Done: False
+
+Step 63
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 4.450881792404759, 'rear_left_dist': 4.448647905823093, 'rear_right_dist': 4.453116141433941, 'front_center_dist': 3.0831208445019795, 'front_left_dist': 3.0814765048506305, 'front_right_dist': 3.0847665929243417}
+Phase: 1
+Gear: -1
+Reward: -16.80 | Done: False
+
+Step 64
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 4.379583564255889, 'rear_left_dist': 4.3773648092072595, 'rear_right_dist': 4.381802804654478, 'front_center_dist': 3.0311265759154313, 'front_left_dist': 3.0295284524041777, 'front_right_dist': 3.0327261817840516}
+Phase: 1
+Gear: -1
+Reward: -16.77 | Done: False
+
+Step 65
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 4.308159446434908, 'rear_left_dist': 4.305956720580364, 'rear_right_dist': 4.310362682126036, 'front_center_dist': 2.9802094904818754, 'front_left_dist': 2.978660423560057, 'front_right_dist': 2.981760116876743}
+Phase: 1
+Gear: -1
+Reward: -16.74 | Done: False
+
+Step 66
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 4.236446103481959, 'rear_left_dist': 4.234260420113838, 'rear_right_dist': 4.238632322959334, 'front_center_dist': 2.9303516825947677, 'front_left_dist': 2.928854818771492, 'front_right_dist': 2.931850186672964}
+Phase: 1
+Gear: -1
+Reward: -16.71 | Done: False
+
+Step 67
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 4.164703193187141, 'rear_left_dist': 4.162535592690488, 'rear_right_dist': 4.166871357917652, 'front_center_dist': 2.8818378745255244, 'front_left_dist': 2.8803963713776146, 'front_right_dist': 2.883281101976976}
+Phase: 1
+Gear: -1
+Reward: -16.68 | Done: False
+
+Step 68
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 4.092777429847198, 'rear_left_dist': 4.090629082772651, 'rear_right_dist': 4.094926371361415, 'front_center_dist': 2.8346799527131994, 'front_left_dist': 2.8332972814366744, 'front_right_dist': 2.836064435585883}
+Phase: 1
+Gear: -1
+Reward: -16.66 | Done: False
+
+Step 69
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 4.020943835929511, 'rear_left_dist': 4.018815943932199, 'rear_right_dist': 4.023072354725765, 'front_center_dist': 2.7891746314556793, 'front_left_dist': 2.7878542344218076, 'front_right_dist': 2.7904969299914226}
+Phase: 1
+Gear: -1
+Reward: -16.63 | Done: False
+
+Step 70
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 3.94906211071864, 'rear_left_dist': 3.946956028969993, 'rear_right_dist': 3.9511688540440604, 'front_center_dist': 2.7453582171418316, 'front_left_dist': 2.744103848045979, 'front_right_dist': 2.7466145800164443}
+Phase: 1
+Gear: -1
+Reward: -16.60 | Done: False
+
+Step 71
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 3.8773873029256025, 'rear_left_dist': 3.875304432607163, 'rear_right_dist': 3.8794708721107756, 'front_center_dist': 2.7035167531916984, 'front_left_dist': 2.7023321097540522, 'front_right_dist': 2.7047034841793445}
+Phase: 1
+Gear: -1
+Reward: -16.57 | Done: False
+
+Step 72
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 3.805814678354958, 'rear_left_dist': 3.803756588494164, 'rear_right_dist': 3.807873507170984, 'front_center_dist': 2.663724121915957, 'front_left_dist': 2.6626131646056295, 'front_right_dist': 2.6648372614825804}
+Phase: 1
+Gear: -1
+Reward: -16.54 | Done: False
+
+Step 73
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 3.734594660455012, 'rear_left_dist': 3.7325629805305933, 'rear_right_dist': 3.736627122330252, 'front_center_dist': 2.6262584295153735, 'front_left_dist': 2.6252250022521966, 'front_right_dist': 2.6272941334982605}
+Phase: 1
+Gear: -1
+Reward: -16.51 | Done: False
+
+Step 74
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 3.6636347770417337, 'rear_left_dist': 3.6616313307773725, 'rear_right_dist': 3.6656390514795785, 'front_center_dist': 2.591217866711039, 'front_left_dist': 2.5902660295545896, 'front_right_dist': 2.5921720739225287}
+Phase: 1
+Gear: -1
+Reward: -16.48 | Done: False
+
+Step 75
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 3.5932158777423777, 'rear_left_dist': 3.5912425520389357, 'rear_right_dist': 3.5951900811651156, 'front_center_dist': 2.558885841635764, 'front_left_dist': 2.558019413952976, 'front_right_dist': 2.5597547300573398}
+Phase: 1
+Gear: -1
+Reward: -16.46 | Done: False
+
+Step 76
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 3.5232212672712198, 'rear_left_dist': 3.5212801910630507, 'rear_right_dist': 3.5251632744448465, 'front_center_dist': 2.529357745751797, 'front_left_dist': 2.5285807362899413, 'front_right_dist': 2.530137302838712}
+Phase: 1
+Gear: -1
+Reward: -16.43 | Done: False
+
+Step 77
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 3.4539802549814196, 'rear_left_dist': 3.452073610195908, 'rear_right_dist': 3.4558878877294794, 'front_center_dist': 2.5029167319708225, 'front_left_dist': 2.5022327277274092, 'front_right_dist': 2.5036033651144027}
+Phase: 1
+Gear: -1
+Reward: -16.40 | Done: False
+
+Step 78
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 3.3853870747597, 'rear_left_dist': 3.3835173232406146, 'rear_right_dist': 3.387257875390365, 'front_center_dist': 2.4796685701949195, 'front_left_dist': 2.479081260639305, 'front_right_dist': 2.480258582957708}
+Phase: 1
+Gear: -1
+Reward: -16.37 | Done: False
+
+Step 79
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 3.3177695910642586, 'rear_left_dist': 3.315939262351061, 'rear_right_dist': 3.319601034212305, 'front_center_dist': 2.4598617525585005, 'front_left_dist': 2.4593742744918146, 'front_right_dist': 2.4603519993146357}
+Phase: 1
+Gear: -1
+Reward: -16.35 | Done: False
+
+Step 80
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 3.2510324048438335, 'rear_left_dist': 3.2492443476667323, 'rear_right_dist': 3.252821646356969, 'front_center_dist': 2.4436060222790927, 'front_left_dist': 2.4432215154871937, 'front_right_dist': 2.4439933530312783}
+Phase: 1
+Gear: -1
+Reward: -16.32 | Done: False
+
+Step 81
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 3.185515758187737, 'rear_left_dist': 3.1837728969818273, 'rear_right_dist': 3.1872598781605554, 'front_center_dist': 2.4311131651497244, 'front_left_dist': 2.4308340716263084, 'front_right_dist': 2.4313951260362017}
+Phase: 1
+Gear: -1
+Reward: -16.39 | Done: False
+
+Step 82
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 3.1212025845583464, 'rear_left_dist': 3.119508160401844, 'rear_right_dist': 3.1228983467376925, 'front_center_dist': 2.4224937516665457, 'front_left_dist': 2.422322318343455, 'front_right_dist': 2.4226680827025002}
+Phase: 1
+Gear: -1
+Reward: -16.37 | Done: False
+
+Step 83
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 3.0583816372430923, 'rear_left_dist': 3.0567390080313595, 'rear_right_dist': 3.0600256884533246, 'front_center_dist': 2.4178962827649335, 'front_left_dist': 2.4178340320469984, 'front_right_dist': 2.4179614473881976}
+Phase: 1
+Gear: -1
+Reward: -16.34 | Done: False
+
+Step 84
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.997095212664341, 'rear_left_dist': 2.9955080547027393, 'rear_right_dist': 2.9986838814595544, 'front_center_dist': 2.4174187992137326, 'front_left_dist': 2.4174669162010893, 'front_right_dist': 2.4173735974855926}
+Phase: 1
+Gear: -1
+Reward: -16.32 | Done: False
+
+Step 85
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.937644721971268, 'rear_left_dist': 2.9361168198268794, 'rear_right_dist': 2.9391742283410647, 'front_center_dist': 2.4211480307807784, 'front_left_dist': 2.421306899635407, 'front_right_dist': 2.420992063359268}
+Phase: 1
+Gear: -1
+Reward: -16.29 | Done: False
+
+Step 86
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.88007326574259, 'rear_left_dist': 2.878608754717425, 'rear_right_dist': 2.881539478910168, 'front_center_dist': 2.4291597205085798, 'front_left_dist': 2.429429386204847, 'front_right_dist': 2.4288929272593083}
+Phase: 1
+Gear: -1
+Reward: -16.27 | Done: False
+
+Step 87
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.8247283937188667, 'rear_left_dist': 2.823331450531677, 'rear_right_dist': 2.8261271408351654, 'front_center_dist': 2.441471493796073, 'front_left_dist': 2.4418511183981475, 'front_right_dist': 2.441094698035838}
+Phase: 1
+Gear: -1
+Reward: -16.25 | Done: False
+
+Step 88
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.7716636586918115, 'rear_left_dist': 2.770338836018521, 'rear_right_dist': 2.772990390649887, 'front_center_dist': 2.458133757732121, 'front_left_dist': 2.4586222256510935, 'front_right_dist': 2.457648061155675}
+Phase: 1
+Gear: -1
+Reward: -16.23 | Done: False
+
+Step 89
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.7212454429554622, 'rear_left_dist': 2.7199972484244395, 'rear_right_dist': 2.7224956546041583, 'front_center_dist': 2.479088630483326, 'front_left_dist': 2.4796839630376426, 'front_right_dist': 2.4784959992303044}
+Phase: 1
+Gear: -1
+Reward: -16.21 | Done: False
+
+Step 90
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.6735601222301946, 'rear_left_dist': 2.672393401152206, 'rear_right_dist': 2.674728970008086, 'front_center_dist': 2.504361974713879, 'front_left_dist': 2.5050619776482272, 'front_right_dist': 2.5036645917714413}
+Phase: 1
+Gear: -1
+Reward: -16.19 | Done: False
+
+Step 91
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.628967462456622, 'rear_left_dist': 2.6278869228084214, 'rear_right_dist': 2.630050238570932, 'front_center_dist': 2.5338312497623057, 'front_left_dist': 2.5346329933160097, 'front_right_dist': 2.5330320355063116}
+Phase: 1
+Gear: -1
+Reward: -16.17 | Done: False
+
+Step 92
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.587574368434849, 'rear_left_dist': 2.5865849935226866, 'rear_right_dist': 2.5885660885533843, 'front_center_dist': 2.5675103545330833, 'front_left_dist': 2.5684108092928812, 'front_right_dist': 2.566612330512731}
+Phase: 1
+Gear: -1
+Reward: -16.15 | Done: False
+
+Step 93
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.549733739814876, 'rear_left_dist': 2.5488402161750052, 'rear_right_dist': 2.550629714300562, 'front_center_dist': 2.6052116697075745, 'front_left_dist': 2.606207205067047, 'front_right_dist': 2.6042184607634162}
+Phase: 1
+Gear: -1
+Reward: -16.14 | Done: False
+
+Step 94
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.5155868220856297, 'rear_left_dist': 2.514793959480961, 'rear_right_dist': 2.5163822363510544, 'front_center_dist': 2.6469250283693055, 'front_left_dist': 2.6480120001844907, 'front_right_dist': 2.6458402744039446}
+Phase: 1
+Gear: -1
+Reward: -16.13 | Done: False
+
+Step 95
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.4854477577475653, 'rear_left_dist': 2.484759924439444, 'rear_right_dist': 2.4861382363110454, 'front_center_dist': 2.6924366148642296, 'front_left_dist': 2.6936109776268045, 'front_right_dist': 2.691264359087524}
+Phase: 1
+Gear: -1
+Reward: -16.11 | Done: False
+
+Step 96
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.4594673582668665, 'rear_left_dist': 2.4588888681401437, 'rear_right_dist': 2.4600485779878793, 'front_center_dist': 2.7417237879438967, 'front_left_dist': 2.742981581597462, 'front_right_dist': 2.740467989401674}
+Phase: 1
+Gear: -1
+Reward: -16.10 | Done: False
+
+Step 97
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.437918203166644, 'rear_left_dist': 2.437452733595652, 'rear_right_dist': 2.4383864749692474, 'front_center_dist': 2.794546170008865, 'front_left_dist': 2.795883189193531, 'front_right_dist': 2.7932110346643624}
+Phase: 1
+Gear: -1
+Reward: -16.09 | Done: False
+
+Step 98
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.420948904614262, 'rear_left_dist': 2.420599866158544, 'rear_right_dist': 2.421300804241913, 'front_center_dist': 2.850874591472923, 'front_left_dist': 2.8522867839194936, 'front_right_dist': 2.849464173147877}
+Phase: 1
+Gear: -1
+Reward: -16.09 | Done: False
+
+Step 99
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.4087694870014946, 'rear_left_dist': 2.40853944825658, 'rear_right_dist': 2.409002430130381, 'front_center_dist': 2.9104432577218184, 'front_left_dist': 2.9119264477041993, 'front_right_dist': 2.9089617349083325}
+Phase: 1
+Gear: -1
+Reward: -16.08 | Done: False
+
+Step 100
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.401503092906856, 'rear_left_dist': 2.401394207707999, 'rear_right_dist': 2.401614908521383, 'front_center_dist': 2.9732392706238002, 'front_left_dist': 2.9747895125662276, 'front_right_dist': 2.9716905922131915}
+Phase: 1
+Gear: -1
+Reward: -16.08 | Done: False
+
+Step 101
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.3992822484054184, 'rear_left_dist': 2.3992956746151695, 'rear_right_dist': 2.399271760339576, 'front_center_dist': 3.038984546551335, 'front_left_dist': 3.0405978604566672, 'front_right_dist': 3.037372696674759}
+Phase: 1
+Gear: -1
+Reward: -16.08 | Done: False
+
+Step 102
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.4021907520954624, 'rear_left_dist': 2.402327145002319, 'rear_right_dist': 2.4020572862557295, 'front_center_dist': 3.1076900179181433, 'front_left_dist': 3.1093626996142207, 'front_right_dist': 3.106018705086499}
+Phase: 1
+Gear: -1
+Reward: -16.08 | Done: False
+
+Step 103
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.4102756882581438, 'rear_left_dist': 2.4105346085383923, 'rear_right_dist': 2.4100196652763035, 'front_center_dist': 3.1790531640613473, 'front_left_dist': 3.1807815193131783, 'front_right_dist': 3.177326087359619}
+Phase: 1
+Gear: -1
+Reward: -16.08 | Done: False
+
+Step 104
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.423575469296704, 'rear_left_dist': 2.4239559910250597, 'rear_right_dist': 2.4231977970216363, 'front_center_dist': 3.2531248349069837, 'front_left_dist': 3.2549054718472004, 'front_right_dist': 3.2513453909850374}
+Phase: 1
+Gear: -1
+Reward: -16.09 | Done: False
+
+Step 105
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.44204040193576, 'rear_left_dist': 2.4425405310915713, 'rear_right_dist': 2.4415430576812183, 'front_center_dist': 3.3295887798901327, 'front_left_dist': 3.3314183484863475, 'front_right_dist': 3.3277603238322815}
+Phase: 1
+Gear: -1
+Reward: -16.10 | Done: False
+
+Step 106
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.4656663305287885, 'rear_left_dist': 2.466283646977663, 'rear_right_dist': 2.4650517192993067, 'front_center_dist': 3.4085045868042063, 'front_left_dist': 3.4103800287114883, 'front_right_dist': 3.4066301817866536}
+Phase: 1
+Gear: -1
+Reward: -16.11 | Done: False
+
+Step 107
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.4943199401289164, 'rear_left_dist': 2.495051128701133, 'rear_right_dist': 2.493591364233513, 'front_center_dist': 3.4895790506308675, 'front_left_dist': 3.4914973821889967, 'front_right_dist': 3.4876616852175246}
+Phase: 1
+Gear: -1
+Reward: -16.12 | Done: False
+
+Step 108
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.5279524755226, 'rear_left_dist': 2.528793911539521, 'rear_right_dist': 2.52711354891814, 'front_center_dist': 3.57286923807981, 'front_left_dist': 3.5748277397768735, 'front_right_dist': 3.5709116363919016}
+Phase: 1
+Gear: -1
+Reward: -16.13 | Done: False
+
+Step 109
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.5663656831711976, 'rear_left_dist': 2.5673130796413575, 'rear_right_dist': 2.5654206847578145, 'front_center_dist': 3.6581060757265247, 'front_left_dist': 3.660102121325128, 'front_right_dist': 3.6561108685554435}
+Phase: 1
+Gear: -1
+Reward: -16.15 | Done: False
+
+Step 110
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.609481347446628, 'rear_left_dist': 2.6105302743195464, 'rear_right_dist': 2.6084347013809186, 'front_center_dist': 3.7453561876649655, 'front_left_dist': 3.7473873873766803, 'front_right_dist': 3.743325769025984}
+Phase: 1
+Gear: -1
+Reward: -16.16 | Done: False
+
+Step 111
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.6570335416564523, 'rear_left_dist': 2.6581791013702905, 'rear_right_dist': 2.655890142151291, 'front_center_dist': 3.8343312476782616, 'front_left_dist': 3.8363952948723665, 'front_right_dist': 3.832267928327604}
+Phase: 1
+Gear: -1
+Reward: -16.18 | Done: False
+
+Step 112
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.7089654012044644, 'rear_left_dist': 2.7102027899399124, 'rear_right_dist': 2.707730050505581, 'front_center_dist': 3.9251714854793165, 'front_left_dist': 3.9272663082884622, 'front_right_dist': 3.9230773410405035}
+Phase: 1
+Gear: -1
+Reward: -16.20 | Done: False
+
+Step 113
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.764954128009777, 'rear_left_dist': 2.766278238451164, 'rear_right_dist': 2.7636319340012423, 'front_center_dist': 4.01755867703217, 'front_left_dist': 4.0196822677979425, 'front_right_dist': 4.015435718811479}
+Phase: 1
+Gear: -1
+Reward: -16.23 | Done: False
+
+Step 114
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.8249340420988456, 'rear_left_dist': 2.8263399738376154, 'rear_right_dist': 2.8235299070257325, 'front_center_dist': 4.111624915948056, 'front_left_dist': 4.113775468237287, 'front_right_dist': 4.1094749536871635}
+Phase: 1
+Gear: -1
+Reward: -16.25 | Done: False
+
+Step 115
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.888581613650046, 'rear_left_dist': 2.8900643607768126, 'rear_right_dist': 2.8871005467709696, 'front_center_dist': 4.207091606138752, 'front_left_dist': 4.209267382963609, 'front_right_dist': 4.204916379997143}
+Phase: 1
+Gear: -1
+Reward: -16.28 | Done: False
+
+Step 116
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
+Distances: {'rear_center_dist': 2.955836099705088, 'rear_left_dist': 2.9573909446935933, 'rear_right_dist': 2.9542828226233215, 'front_center_dist': 4.304093371452577, 'front_left_dist': 4.306292808175133, 'front_right_dist': 4.301894448936009}
+Phase: 1
+Gear: -1
+Reward: -16.30 | Done: False
+
+Step 117
+Action: (0.0, 0.3, 1)
+Yaw Error: 0.16
