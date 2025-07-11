@@ -33,10 +33,9 @@ def put_episode_text(frame, text):
 
 
 class CarlaParallelParkingHybridEnv(CarlaParallelParkingEnv):
-    def __init__(self, config=None, grid_size=(60, 60)):
-        super().__init__(config=config, grid_size=grid_size)
+    def __init__(self, config=None, grid_size=(60, 60), record_video = False):
+        super().__init__(config=config, grid_size=grid_size,record_video=record_video)
 
-        self.record_video = True  # Optional flag to control recording
         self.video_path = "logs/hybrid_recording.mp4"
         self.concat_video_path = "logs/hybrid_recording_concat.mp4"
         self.video_fps = 20
@@ -45,8 +44,8 @@ class CarlaParallelParkingHybridEnv(CarlaParallelParkingEnv):
 
 
         # Reduced and optimized discrete action space
-        self.steer_values = [-0.5, -0.4, -0.3, -0.1, 0.0, 0.1, 0.3, 0.4, 0.5]
-        self.throttle_values = [-0.5, -0.2, 0.0, 0.2, 0.3]
+        self.steer_values = [-0.5, -0.3, -0.1, 0.0, 0.1, 0.3, 0.5]
+        self.throttle_values = [-0.5, -0.2, 0.1, 0.4, 0.6, 0.8]
         self.gear_values = [0, 1]  # 0 = forward, 1 = reverse
 
         self.discrete_actions = [
@@ -131,4 +130,34 @@ class CarlaParallelParkingHybridEnv(CarlaParallelParkingEnv):
 
         return obs
 
+if __name__ == "__main__":
+    import time
 
+    env = CarlaParallelParkingHybridEnv()
+    num_episodes = 3
+    total_steps = 0
+
+    start_time = time.time()
+
+    for ep in range(num_episodes):
+        print(f"\n[INFO] Starting episode {ep + 1}")
+        obs, _ = env.reset()
+
+        done = False
+        truncated = False
+        step_count = 0
+
+        while not done and not truncated:
+            # Random action for testing (continuous space)
+            action = env.action_space.sample()
+            obs, reward, done, truncated, info = env.step(action)
+            step_count += 1
+            total_steps += 1
+
+        print(f"[INFO] Episode {ep + 1} finished after {step_count} steps")
+
+    total_time = time.time() - start_time
+    print(f"\n✅ Simulated {num_episodes} episodes, {total_steps} steps in {total_time:.2f} seconds.")
+    print(f"🕒 Average time per episode: {total_time / num_episodes:.2f} s")
+
+    env.close()

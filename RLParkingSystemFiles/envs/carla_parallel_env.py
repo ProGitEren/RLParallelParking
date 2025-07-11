@@ -38,7 +38,7 @@ def put_episode_text(frame, text):
 
 class CarlaParallelParkingEnv(gym.Env):
 
-    def __init__(self, config=None, grid_size=(60, 60)):
+    def __init__(self, config=None, grid_size=(60, 60), record_video = False):
         super().__init__()
         self.config = config or {}
         self.max_steps = self.config.get('max_steps', 300)
@@ -47,7 +47,7 @@ class CarlaParallelParkingEnv(gym.Env):
 
         self.episode = 0
 
-        self.record_video = True  # Optional flag to control recording
+        self.record_video = record_video  # Optional flag to control recording
         self.video_path = "logs/cont_recording.mp4"
         self.concat_video_path = "logs/cont_recording_concat.mp4"
         self.video_fps = 20
@@ -61,6 +61,7 @@ class CarlaParallelParkingEnv(gym.Env):
         self.previous_phase = 1
 
         self.current_steer = 0.25
+        self.current_speed = 0.0
         self.reverse = True
         self.gear = -1
 
@@ -74,7 +75,8 @@ class CarlaParallelParkingEnv(gym.Env):
             host=self.config.get('host', 'localhost'),
             port=self.config.get('port', 2000),
             town=self.config.get('town', 'Town03'),
-            synchronous=True
+            synchronous=True,
+            delta_seconds=0.1
         )
 
         self.gap_length = 0.0
@@ -143,7 +145,8 @@ class CarlaParallelParkingEnv(gym.Env):
         self.world_mgr.destroy_boundary_vehicles()
 
         self.world_mgr.tick()
-        time.sleep(0.25)  # Allow simulation to process
+        self.world_mgr.tick()
+        time.sleep(0.5)  # Allow simulation to process
 
         self.ego_vehicle = self.world_mgr.spawn_ego_vehicle()
         self.sensor_manager = SensorManager(self.world_mgr.world, self.ego_vehicle)
@@ -168,6 +171,7 @@ class CarlaParallelParkingEnv(gym.Env):
         self.gear_change_count = 0
         self.gear = -1
         self.previous_gear = -1
+        self.current_speed = 0.0
 
         frame = None
         lidar_pts = None
@@ -206,7 +210,8 @@ class CarlaParallelParkingEnv(gym.Env):
         self._apply_control(action)
         self.world_mgr.tick()
 
-        frame = self.sensor_manager.get_bev_camera_frame()
+        if self.record_video:
+            frame = self.sensor_manager.get_bev_camera_frame()
 
         self.world_mgr.follow_ego_vehicle()
 
@@ -248,6 +253,9 @@ class CarlaParallelParkingEnv(gym.Env):
         if throttle <= 0:
             brake = abs(throttle)
             throttle = 0.0
+            self.current_speed = 0.0
+        else:
+            self.current_speed = 0.1
 
         control = carla.VehicleControl()
         control.steer = max(-1, steer)
@@ -314,27 +322,33 @@ class CarlaParallelParkingEnv(gym.Env):
         rear_right = distances['rear_right_dist']
         rear_center = distances['rear_center_dist']
         front_center = distances['front_center_dist']
-        yaw_error = abs(gt_yaw)
+        yaw_error = gt_yaw
+        # print(f"YAW ERROR: {yaw_error}")
 
         if self.current_phase > self.previous_phase:
-            reward += 10.0 * self.current_phase
+            reward += 500.0 * self.current_phase
         self.previous_phase = self.current_phase
 
         if self.current_phase == 1:
 
-            reward -= 0.5 * abs(yaw_error - 30.0)
-            reward = (reward - 0.4 * rear_left) if self.parking_side == 1 else ( reward - 0.4 * rear_right)
+            if self.parking_side == 1: # RIGHT
+                reward -= 60 * abs(yaw_error + 30)
+            else:   # LEFT
+                reward -= 60 * abs(yaw_error - 30)
+            # reward -= 50 * abs(yaw_error - 30)
+            reward = (reward - 40 * rear_left) if self.parking_side == 1 else ( reward - 40 * rear_right)
+            # reward -=
 
         elif self.current_phase == 2:
 
-            reward -= 0.4 * rear_center
+            reward -= 40 * rear_center
 
         elif self.current_phase == 3:
 
             #reward -= 0.15 * rear_center
-            reward -= 0.15 * yaw_error
+            reward -= 15 * yaw_error
             center_diff = abs(front_center - rear_center)
-            reward -= 0.3 * center_diff
+            reward -= 20 * center_diff
 
             parked, park_reward = self._check_if_parked(rear_center, front_center, yaw_error)
             if parked:
@@ -342,8 +356,8 @@ class CarlaParallelParkingEnv(gym.Env):
                 reward += park_reward
                 done = True
 
-        sim_time = self.current_step * 0.05
-        step_penalty = 0.05 * (8 if sim_time > 8 else 4 if sim_time > 4 else 2)
+        sim_time = self.current_step * 0.1
+        step_penalty = 5 * (8 if sim_time > 8 else 4 if sim_time > 4 else 2)
         reward -= step_penalty
 
         if len(self.steer_history) == 5:
@@ -355,20 +369,21 @@ class CarlaParallelParkingEnv(gym.Env):
                     sign_changes += 1
                 prev_sign = current_sign
 
-            if sign_changes >= 2:
-                reward -= 2.5 * sign_changes
+            if sign_changes >= 3:
+                reward -= 50 * sign_changes
 
 
 
-        if not self.gear_reward_handled and self.gear_change_count >=2:
-            reward -= 5.0 * (self.gear_change_count - 1)
+        if not self.gear_reward_handled and self.gear_change_count >=2 and self.current_phase == 3:
+            reward -= 75.0 * (self.gear_change_count - 1)
             self.gear_reward_handled = True
 
 
         if self._check_collision():
-            reward -= 100.0
+            reward -= 1000.0
             done = True
 
+        reward /= 100
         return reward, done
 
     def _check_if_parked(self, rear_center, front_center, yaw_error):
@@ -379,9 +394,9 @@ class CarlaParallelParkingEnv(gym.Env):
 
         if parked:
             # Bonus inversely proportional to error (but bounded)
-            yaw_bonus = max(0.0, (5.0 - abs(yaw_error)) * 2.0)
-            align_bonus = max(0.0, (0.2 - center_diff) * 50.0)
-            reward = 100.0 + yaw_bonus + align_bonus
+            yaw_bonus = max(0.0, (5.0 - abs(yaw_error)) * 20.0)
+            align_bonus = max(0.0, (0.2 - center_diff) * 500.0)
+            reward = 1000.0 + yaw_bonus + align_bonus
 
         return parked, reward
 
@@ -402,7 +417,7 @@ class CarlaParallelParkingEnv(gym.Env):
     def _ground_truth_yaw(self):
         ego_yaw = self.ego_vehicle.get_transform().rotation.yaw
         front_yaw = self.world_mgr.npc_vehicles[0].get_transform().rotation.yaw
-        return (abs(ego_yaw - front_yaw) + 180) % 360 - 180
+        return ((ego_yaw - front_yaw) + 180) % 360 - 180
 
     def _compute_vehicle_distances(self):
         def get_corners(vehicle):

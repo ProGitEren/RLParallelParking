@@ -11,7 +11,7 @@ class CarlaWorldManager:
         Provides synchronous stepping for stable TL interaction.
     """
 
-    def __init__(self, host='localhost', port=2000, town = 'Town03', synchronous=True, delta_seconds=0.05):
+    def __init__(self, host='localhost', port=2000, town = 'Town03', synchronous=True, delta_seconds=0.1):
         self.host = host
         self.port = port
         self.town = town
@@ -29,6 +29,7 @@ class CarlaWorldManager:
         settings = self.world.get_settings()
         settings.fixed_delta_seconds = self.delta_seconds
         settings.synchronous_mode = self.synchronous
+        settings.no_rendering_mode = False
         self.world.apply_settings(settings)
 
         self.blueprint_lib: carla.BlueprintLibrary = self.world.get_blueprint_library()
@@ -71,6 +72,7 @@ class CarlaWorldManager:
         """Spawn or re-spawn the ego vehicle"""
         if self.ego_vehicle:
             self.destroy_ego_vehicle()
+        self._flush()
 
         vehicle_bp = self.blueprint_lib.find('vehicle.ford.mustang')
         spawn_point = self._find_roadside_spawn_point()
@@ -242,8 +244,35 @@ class CarlaWorldManager:
                 vehicle.destroy()
         self.npc_vehicles = []
 
+    def _flush(self, n_ticks=2):
+        for _ in range(n_ticks):
+            self.world.tick() if self.synchronous else time.sleep(self.delta_seconds)
+
+    def _is_transform_free(self, tr: carla.Transform, margin: float = .25) -> bool:
+        """Return False if any actor’s AABB intersects `tr`."""
+        bb = carla.BoundingBox(tr.location, carla.Vector3D(1.1, 2.5, 1.0))
+        bb.rotation = tr.rotation
+        for a in self.world.get_actors():
+            # consider all vehicles + your static props
+            if 'vehicle.' in a.type_id or 'static.prop.streetbarrier' in a.type_id:
+                if bb.intersects(a.bounding_box, margin):
+                    return False
+        return True
 
 if __name__ == "__main__":
     model = CarlaWorldManager()
     print(model)
     print("Model initialized successfully!")
+
+    import time
+
+    start = time.time()
+    tick_counter = 0
+    print("STARTED")
+    for _ in range(500):  # 500s simulated
+        model.world.tick()
+        tick_counter += 1
+
+    print("ENDED")
+    print(f"Elapsed real time: {time.time() - start:.2f}s")
+    print(f"Tick Total Time: {tick_counter * 0.1:.2f}s")
